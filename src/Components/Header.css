@@ -1,0 +1,31 @@
+header {
+    grid-column: 4 / 30;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: purple;
+}
+
+#puppy-names {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dog-name {
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid purple;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    min-width: 80px;
+    min-height: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+}
