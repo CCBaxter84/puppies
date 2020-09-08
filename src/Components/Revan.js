@@ -1,33 +1,32 @@
 import React from "react"
 import "./Puppies.css"
 import NovaRevan from "../PuppyPhotos/Nova-Revan.jpeg"
-import PupRevan from "../PuppyPhotos/Pup-Revan.JPG"
-import PuppyRevan from "../PuppyPhotos/Puppy-Revan.JPG"
-import QuigleyRevan from "../PuppyPhotos/Quigley-Revan.JPG"
-import CrazyRevan from "../PuppyPhotos/Revan.JPG"
-import QuigleyRevan2 from "../PuppyPhotos/Revan-Quigley.JPG"
-import SisterBrother from "../PuppyPhotos/Sister-Bro.JPG"
+import PupRevan from "../PuppyPhotos/Pup-Revan.jpg"
+import PuppyRevan from "../PuppyPhotos/Puppy-Revan.jpg"
+import QuigleyRevan from "../PuppyPhotos/Quigley-Revan.jpg"
+import CrazyRevan from "../PuppyPhotos/Revan.jpg"
+import QuigleyRevan2 from "../PuppyPhotos/Revan-Quigley.jpg"
 
 export default function Revan() {
     return (
         <>
             <div className="horizontal">
-                <img src={NovaRevan}/>
+                <img src={NovaRevan} alt="white shichon puppy and black shichon puppy"/>
             </div>
             <div className="big">
-                <img src={CrazyRevan}/>
+                <img src={CrazyRevan} alt="black shichon puppy"/>
             </div>
             <div className="big">
-                <img src={PupRevan}/>
+                <img src={PupRevan} alt="black shichon puppy"/>
             </div>
             <div className="horizontal">
-                <img src={PuppyRevan}/>
+                <img src={PuppyRevan} alt="black shichon puppy"/>
             </div>
             <div className="horizontal">
-                <img src={QuigleyRevan}/>
+                <img src={QuigleyRevan} alt="2 black shichon puppies"/>
             </div>
             <div className="vertical">
-                <img src={QuigleyRevan2}/>
+                <img src={QuigleyRevan2} alt="2 black shichon puppies"/>
             </div>
         </>
     )

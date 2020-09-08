@@ -1,33 +1,32 @@
 import React from "react"
 import "./Puppies.css"
-import HomerGiant from "../PuppyPhotos/Homer.JPG"
-import DrHomer from "../PuppyPhotos/Dr-Homer.JPG"
-import HomerCouch from "../PuppyPhotos/Homer2.JPG"
-import HomerDerx from "../PuppyPhotos/Derx-Homer.JPG"
-import HomerRevan from "../PuppyPhotos/HomerRevan.JPG"
-import HomerRevan2 from "../PuppyPhotos/HomerRevan2.JPG"
-import HomerBeanbag from "../PuppyPhotos/Homer-Beanbag.JPG"
+import HomerGiant from "../PuppyPhotos/Homer.jpg"
+import DrHomer from "../PuppyPhotos/Dr-Homer.jpg"
+import HomerCouch from "../PuppyPhotos/Homer2.jpg"
+import HomerDerx from "../PuppyPhotos/Derx-Homer.jpg"
+import HomerRevan from "../PuppyPhotos/HomerRevan2.jpg"
+import HomerBeanbag from "../PuppyPhotos/Homer-Beanbag.jpg"
 
 export default function Homer() {
     return (
         <>
             <div className="vertical">
-                <img src={DrHomer}/>
+                <img src={DrHomer} alt="black dog wearing glasses and sitting in a chair"/>
             </div>
             <div className="vertical">
-                <img src={HomerCouch}/>
+                <img src={HomerCouch} alt="black dog lying on a couch"/>
             </div>
             <div className="vertical">
-                <img src={HomerRevan2}/>
+                <img src={HomerRevan} alt="black dog and black shichon puppy"/>
             </div>
             <div className="big">
-                <img src={HomerDerx}/>
+                <img src={HomerDerx} alt="2 smiling dogs sitting"/>
             </div>
             <div className="vertical">
-                <img src={HomerGiant}/>
+                <img src={HomerGiant} alt="black dog wearing football jersey and sitting on couch"/>
             </div>
             <div className="horizontal">
-                <img src={HomerBeanbag}/>
+                <img src={HomerBeanbag} alt="black dog on a beanbag"/>
             </div>
         </>
     )
