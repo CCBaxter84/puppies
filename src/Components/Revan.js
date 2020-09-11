@@ -1,13 +1,14 @@
-import React from "react"
-import "./Puppies.css"
-import NovaRevan from "../PuppyPhotos/Nova-Revan.jpeg"
-import PupRevan from "../PuppyPhotos/Pup-Revan.jpg"
-import PuppyRevan from "../PuppyPhotos/Puppy-Revan.jpg"
-import QuigleyRevan from "../PuppyPhotos/Quigley-Revan.jpg"
-import CrazyRevan from "../PuppyPhotos/Revan.jpg"
-import QuigleyRevan2 from "../PuppyPhotos/Revan-Quigley.jpg"
+import React from "react";
+import "./Puppies.css";
+import NovaRevan from "../PuppyPhotos/Nova-Revan.jpeg";
+import PupRevan from "../PuppyPhotos/Pup-Revan.jpg";
+import PuppyRevan from "../PuppyPhotos/Puppy-Revan.jpg";
+import QuigleyRevan from "../PuppyPhotos/Quigley-Revan.jpg";
+import CrazyRevan from "../PuppyPhotos/Revan.jpg";
+import QuigleyRevan2 from "../PuppyPhotos/Revan-Quigley.jpg";
 
-export default function Revan() {
+function Revan() {
+    // Render photos of Revan to screen
     return (
         <>
             <div className="horizontal">
@@ -29,5 +30,7 @@ export default function Revan() {
                 <img src={QuigleyRevan2} alt="2 black shichon puppies"/>
             </div>
         </>
-    )
+    );
 }
+
+export default Revan;

@@ -1,13 +1,14 @@
-import React from "react"
-import "./Puppies.css"
-import HomerGiant from "../PuppyPhotos/Homer.jpg"
-import DrHomer from "../PuppyPhotos/Dr-Homer.jpg"
-import HomerCouch from "../PuppyPhotos/Homer2.jpg"
-import HomerDerx from "../PuppyPhotos/Derx-Homer.jpg"
-import HomerRevan from "../PuppyPhotos/HomerRevan2.jpg"
-import HomerBeanbag from "../PuppyPhotos/Homer-Beanbag.jpg"
+import React from "react";
+import "./Puppies.css";
+import HomerGiant from "../PuppyPhotos/Homer.jpg";
+import DrHomer from "../PuppyPhotos/Dr-Homer.jpg";
+import HomerCouch from "../PuppyPhotos/Homer2.jpg";
+import HomerDerx from "../PuppyPhotos/Derx-Homer.jpg";
+import HomerRevan from "../PuppyPhotos/HomerRevan2.jpg";
+import HomerBeanbag from "../PuppyPhotos/Homer-Beanbag.jpg";
 
-export default function Homer() {
+function Homer() {
+    // Render pictures of Homer to the screen
     return (
         <>
             <div className="vertical">
@@ -29,5 +30,7 @@ export default function Homer() {
                 <img src={HomerBeanbag} alt="black dog on a beanbag"/>
             </div>
         </>
-    )
+    );
 }
+
+export default Homer;

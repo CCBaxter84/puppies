@@ -1,13 +1,14 @@
-import React from "react"
-import "./Puppies.css"
-import Commodore from "../PuppyPhotos/Commodore.jpg"
-import QuigleyNova from "../PuppyPhotos/Quigley-Nova.jpg"
-import QuigleyHomer from "../PuppyPhotos/HomerQuigley.jpg"
-import QuigleyRevan2 from "../PuppyPhotos/Revan-Quigley.jpg"
-import QuigleyRevan from "../PuppyPhotos/Quigley-Revan.jpg"
-import QuigleyNova2 from "../PuppyPhotos/Quigley-Nova2.jpg"
+import React from "react";
+import "./Puppies.css";
+import Commodore from "../PuppyPhotos/Commodore.jpg";
+import QuigleyNova from "../PuppyPhotos/Quigley-Nova.jpg";
+import QuigleyHomer from "../PuppyPhotos/HomerQuigley.jpg";
+import QuigleyRevan2 from "../PuppyPhotos/Revan-Quigley.jpg";
+import QuigleyRevan from "../PuppyPhotos/Quigley-Revan.jpg";
+import QuigleyNova2 from "../PuppyPhotos/Quigley-Nova2.jpg";
 
-export default function Quigley() {
+function Quigley() {
+    // Render pictures of Quigley to the screen
     return (
         <>
             <div className="big">
@@ -30,5 +31,7 @@ export default function Quigley() {
             </div>
 
         </>
-    )
+    );
 }
+
+export default Quigley;

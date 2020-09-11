@@ -1,13 +1,14 @@
-import React from "react"
-import "./Puppies.css"
-import NovaBeanBag from "../PuppyPhotos/Nova-Beanbag.jpeg"
-import QueenNova from "../PuppyPhotos/Queen-Nova.jpg"
-import NovaBlanket from "../PuppyPhotos/Nova-Blanket.jpg"
-import NovaPic from "../PuppyPhotos/Nova.jpg"
-import NovaThrone from "../PuppyPhotos/NovaBeanbag.jpg"
-import HappyNova from "../PuppyPhotos/HappyNova.jpg"
+import React from "react";
+import "./Puppies.css";
+import NovaBeanBag from "../PuppyPhotos/Nova-Beanbag.jpeg";
+import QueenNova from "../PuppyPhotos/Queen-Nova.jpg";
+import NovaBlanket from "../PuppyPhotos/Nova-Blanket.jpg";
+import NovaPic from "../PuppyPhotos/Nova.jpg";
+import NovaThrone from "../PuppyPhotos/NovaBeanbag.jpg";
+import HappyNova from "../PuppyPhotos/HappyNova.jpg";
 
 function Nova() {
+    // Render photos of Nova to the screen
     return (
         <>
             <div className="horizontal">
@@ -30,7 +31,7 @@ function Nova() {
             </div>
 
         </>
-    )
+    );
 }
 
-export default Nova
+export default Nova;
