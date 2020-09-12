@@ -1,3 +1,5 @@
+I did this simple React app to demonstrate the utility of React Router in a single page application. Clicking one of the buttons in a row at the top of the page causes the page to render photos of the puppy associated with the button -- much like how clicking an 'About Me' or 'Help' tag at the top of a webpage typically redirects to a different page within the site.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
